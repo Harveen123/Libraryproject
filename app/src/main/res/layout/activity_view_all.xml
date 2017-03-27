@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.libraryproject.view_all"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+       android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:background="#6d23b3"
+           android:orientation="vertical"
+           >
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:src="@drawable/user_pro"
+               android:layout_gravity="center_horizontal"
+               android:layout_margin="10dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="User Profile"
+               android:textSize="20dp"
+               android:textColor="#000"
+              android:layout_gravity="center_horizontal"
+               />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:layout_margin="3dp"
+               android:background="#b32a23"
+               android:orientation="vertical"
+               >
+
+               <ImageView
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/new_user"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Membership"
+                   android:textSize="20dp"
+                   android:textColor="#000"
+                   android:layout_gravity="center"/>
+
+
+
+
+           </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#23b32f"
+            android:orientation="vertical"
+            android:layout_margin="3dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+               android:src="@drawable/add_books"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Books List"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="#23b1b3"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/book_see"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Search"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#b323a7"
+            android:orientation="vertical"
+            android:layout_margin="3dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/book_lend"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Books Lending List"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="#efcb29"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/feedback"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

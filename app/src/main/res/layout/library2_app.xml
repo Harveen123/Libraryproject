@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/library2_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context="com.example.admin.libraryproject.library2_app"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#68cccccc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book List"
+        android:textSize="30dp"
+        android:background="@drawable/shape4"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/list"
+        android:onClick="book_list"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Lending details"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/shape4"
+        android:id="@+id/lend"
+        android:layout_below="@+id/list"
+        android:onClick="book_lend"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/shape4"
+        android:id="@+id/search"
+        android:layout_below="@+id/lend"
+        android:onClick="book_search"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:background="@drawable/shape4"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/search"
+        android:onClick="cancel"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.libraryproject.page_first"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/book1"
+        android:id="@+id/pic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/pic"
+        android:background="#1f81e4"
+        android:id="@+id/view1"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/view1"
+        android:background="#fff"
+        android:id="@+id/view2"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1f81e4"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user_shape"
+            android:layout_marginTop="60dp"
+            android:id="@+id/img1"
+            android:background="@drawable/login"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:text="User"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#2531b4"
+            android:id="@+id/user_first"
+            android:onClick="userr"
+            />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user_shape"
+            android:layout_marginTop="60dp"
+            android:id="@+id/img2"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="80dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img2"
+            android:layout_toRightOf="@+id/user_first"
+            android:text="Admin"
+            android:textSize="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#2531b4"
+            android:id="@+id/admin_first"
+            android:onClick="admin"
+            />
+
+
+
+
+</RelativeLayout>
+
+    </RelativeLayout>

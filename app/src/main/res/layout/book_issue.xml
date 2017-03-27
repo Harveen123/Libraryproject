@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_book_issue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/issue2"
+    tools:context="com.example.admin.libraryproject.book_issue"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#60969090"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book's Issue Form"
+        android:textSize="40dp"
+        android:textColor="#b41426"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/book_form"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_form"
+        android:text="Roll No."
+        android:textColor="#000"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/roll_no"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roll_no"
+        android:hint="Enter your Roll no."
+        android:textColorHint="#716d6d"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/edit"
+        android:layout_centerInParent="true"
+        android:inputType="number"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_margin="10dp"/>
+</RelativeLayout>
+
+

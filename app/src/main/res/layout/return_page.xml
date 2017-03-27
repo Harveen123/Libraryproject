@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/return_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/book_return"
+
+    tools:context="com.example.admin.libraryproject.return_page"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6fcccccc"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Return"
+        android:textSize="40dp"
+        android:textColor="#000"
+       android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+       android:id="@+id/text_return"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/text_return"
+        android:text="Book Id"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+      android:id="@+id/book_id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your book id"
+       android:layout_below="@+id/book_id"
+        android:background="@drawable/shape5"
+        android:padding="10dp"
+        android:id="@+id/edit_book"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/edit_book"
+        android:text="Book name"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+      android:id="@+id/text_booknm"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your book name"
+       android:layout_below="@+id/text_booknm"
+        android:background="@drawable/shape5"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+       android:id="@+id/edit_booknm"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_booknm"
+        android:text="Date of Issue"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+       android:id="@+id/issue_date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your book name"
+        android:layout_below="@+id/issue_date"
+        android:background="@drawable/shape5"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/edit_issue"
+        android:inputType="date"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_issue"
+        android:text="Date of Expiry"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/expiry"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your book name"
+        android:layout_below="@+id/expiry"
+        android:background="@drawable/shape5"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/edit_expiry"
+        android:inputType="date"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_expiry"
+        android:text="RETURNING"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="@drawable/shape5"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
